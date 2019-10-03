@@ -1,0 +1,94 @@
+.section{
+    border:2px solid grey;
+    padding:20px;
+    margin-bottom: 10px;
+    
+}
+.Accueil{
+    font-family: Luminari, fantasy;
+    font-size:30px;
+    font-variant:small-caps;
+    font-weight: 900;
+
+}
+
+/*Nav Bar Starts Here*/
+
+nav{
+    background-color: grey;
+
+    
+}
+
+ul{
+    list-style-type:none;    
+    text-align-last: right;
+}
+li {
+    display: inline;
+    color:white;
+
+}
+
+a {
+    color: white;
+    font-weight:bold;
+}
+
+/*Nav Bar Ends here */
+
+
+h2{
+    text-align:center;
+}
+
+/*Body Starts Here*/
+body{
+    background-color:white;
+    width:50%;
+    margin:auto;
+}
+html{
+    background-color: lightgoldenrodyellow;
+}
+p{
+    text-align: justify;
+}
+.Poussin1{
+    width:"80px";
+    height:"80px";
+    float:right;
+    
+}
+.Poussin2{
+    width:"140px";
+    height:"140px";
+    float:left;
+}
+.Poussin3{
+    width:"50px";
+    height:"50px";
+    float:left;
+    margin-top: -40px;
+}
+
+@media print{
+            .Poussin1{
+                display:none;
+            }
+
+            .Poussin2{
+                display:none;
+            }
+
+            div{
+                page-break-inside: always;
+                page-break-before: always;
+            }
+
+
+}
+
+
+/* Body Ends Here
+
