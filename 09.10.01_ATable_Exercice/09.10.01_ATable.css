@@ -18,7 +18,7 @@ table {
 thead {
     font-weight:bold; 
     font-size: 30px;
-    background-color:#2C2A2A; 
+    background-color:#1F1F1F; 
 }
 thead tr{
     height:50px;
@@ -27,38 +27,39 @@ thead tr{
 thead :nth-child(2){
     font-weight: bold;
     font-size: 20px;
-    background-color:#474646;
+    background-color:#3F3F3F;
     height:50px;
 }
       
 
 tbody{
-    background-color: #D7D2D2; 
+    background-color:#CCC; 
      
     font-weight:bold; 
     font-size: 20px;
 }
 tbody tr{
     height:100px;
+    
 
 } 
-tbody:nth-child(2) {
-    background-color:#B4ADAD; 
-    
+tbody tr:nth-child(2) {
+    background-color:#999999;
     font-weight:bold; 
     font-size: 20px;
  }
  tfoot{
-    background-color:#474646; 
+    
     
     font-weight:bold; 
     font-size: 15px;
 } 
 tfoot tr{
     height:50px;
+    background-color: #3D3D3D; 
 }
-tfoot:nth-child(2){
-    background-color: #2C2A2A; 
+tfoot tr:nth-child(2){
+    background-color:#1f1f1f; 
     
     font-weight:bold;
     font-size: 15px;
