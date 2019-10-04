@@ -1,0 +1,45 @@
+html{
+    background-color: beige;
+}
+div{
+    background-color: bisque;
+    color: red;
+    font-weight:bold;
+    font-size: 25px;
+    text-align-last: center;
+
+}
+
+ul li{
+    list-style-type: none;    
+    margin:0;
+    padding: 0;
+    display:inline;
+}
+
+ul li ul li {
+    
+    width: 200px;
+    display: none;
+}
+
+a:hover{
+    color:darkorange;
+    font-size: 30px;
+}
+
+a{
+    color:red;
+    
+}
+
+a.SousMenu:hover{
+    color:black;
+   
+}
+
+
+
+
+
+
