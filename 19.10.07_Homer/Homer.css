@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(63, 4, 4);
+}
+
+
+section {
+    background-color: bisque;
+    text-align: center;
+}
+
+img{
+    border-radius: 20%;
+}
+
+
+
+img:hover {
+    border-radius: 50%;
+    box-shadow:10px 5px 5px red;
+    
+}
+
+
+
+
+box-shadow: 1px 1px 10px #000 inset;
+    background-position: 80% 20%;
